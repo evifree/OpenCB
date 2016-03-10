@@ -1,14 +1,14 @@
-<b><big>Chess Reader</big></b>
+#Chess Reader
 
 FreeCB is an interactive reader of chess books. Play through the lines in the book, or try your own, it's like having a chess board and a chess book in the palm of your hand. The project is currently being used by various publishers on the market.
 
-<b><big>Files</big></b>
+##Files
 
 This distribution consists of the full source code for the book reader, including a Xcode project that can be compiled. A few sample books are included.
 
 Due to copyright laws, full books are not included. Only the reader is included with this distribution. Contributions for books or source code is welcome.
 
-<b><big>License</big></b>
+##License
 
 This is a free software without any license restriction.
 
