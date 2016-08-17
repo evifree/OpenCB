@@ -6,7 +6,7 @@ OpenCB is an interactive reader of chess books. Play through the lines in the bo
 
 This distribution consists of the full source code for the book reader, including a Xcode project that can be compiled. A few sample books are included.
 
-Due to copyright laws, full books are not included. Only the reader is included with this distribution. Contributions for books or source code is welcome. Interested developers could study the source code to learn how an ebook app works (JavaScript + UIWebView).
+Due to copyright laws, full books are not included. Only the reader is included with this distribution. Contributions for books or source code is welcome. The software is not very useful without the books, however, interested developers could study the source code to learn how an ebook app works (JavaScript + UIWebView).
 
 ##License
 
