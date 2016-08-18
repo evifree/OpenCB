@@ -8,6 +8,10 @@ This distribution consists of the full source code for the book reader, includin
 
 Due to copyright laws, full books are not included. Only the reader is included with this distribution. Contributions for books or source code is welcome. The software is not very useful without the books, however, interested developers could study the source code to learn how an ebook app works (JavaScript + UIWebView).
 
+## Related
+
+ChessStudio (https://github.com/student-t/ChessStudio) is another open source iOS chess app. Please fork both projects.
+
 ##License
 
 This is a free software without any license restriction.
