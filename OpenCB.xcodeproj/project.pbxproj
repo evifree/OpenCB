@@ -506,7 +506,7 @@
 			isa = PBXGroup;
 			children = (
 				EF007E3719853E5500F955A7 /* Appirater */,
-				54E1744C1381B46200C1A8FD /* ForwardChess */,
+				54E1744C1381B46200C1A8FD /* OpenCB */,
 				54E174431381B46200C1A8FD /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -539,7 +539,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		54E1744C1381B46200C1A8FD /* ForwardChess */ = {
+		54E1744C1381B46200C1A8FD /* OpenCB */ = {
 			isa = PBXGroup;
 			children = (
 				EFEDB933193F2B8B00F536FA /* Board */,
@@ -567,6 +567,7 @@
 				BAFFCA1E1589D3200065E38A /* ZipDownloader.h */,
 				BAFFCA1F1589D3200065E38A /* ZipDownloader.m */,
 			);
+			name = OpenCB;
 			path = ForwardChess;
 			sourceTree = "<group>";
 		};
