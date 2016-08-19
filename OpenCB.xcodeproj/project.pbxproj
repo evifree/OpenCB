@@ -20,7 +20,6 @@
 		54E1744B1381B46200C1A8FD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54E1744A1381B46200C1A8FD /* CoreData.framework */; };
 		54E174541381B46200C1A8FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E174531381B46200C1A8FD /* main.m */; };
 		54E174571381B46200C1A8FD /* ForwardChessAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 54E174561381B46200C1A8FD /* ForwardChessAppDelegate.mm */; };
-		54E174901381C01200C1A8FD /* ForwardChess-info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54E1748F1381C01200C1A8FD /* ForwardChess-info.plist */; };
 		54E174931381C17700C1A8FD /* CoreDataProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E174921381C17700C1A8FD /* CoreDataProxy.m */; };
 		54E1749C1383059D00C1A8FD /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E1749B1383059D00C1A8FD /* SettingsViewController.m */; };
 		54E174B61385425400C1A8FD /* NSManagedObjectContext+CustomFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E174B51385425400C1A8FD /* NSManagedObjectContext+CustomFetch.m */; };
@@ -131,6 +130,7 @@
 		EF574957190224F4000F9387 /* Board@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF574953190224F4000F9387 /* Board@2x.png */; };
 		EF574958190224F4000F9387 /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = EF574954190224F4000F9387 /* Settings.png */; };
 		EF574959190224F4000F9387 /* Settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF574955190224F4000F9387 /* Settings@2x.png */; };
+		EF582DAC1D668BE000193903 /* OpenCB-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF582DAB1D668BE000193903 /* OpenCB-Info.plist */; };
 		EF666CD7191BD4C900E4EA31 /* benchmark.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF666CAD191BD4C900E4EA31 /* benchmark.cpp */; };
 		EF666CD8191BD4C900E4EA31 /* bitbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF666CAE191BD4C900E4EA31 /* bitbase.cpp */; };
 		EF666CD9191BD4C900E4EA31 /* bitboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF666CAF191BD4C900E4EA31 /* bitboard.cpp */; };
@@ -191,12 +191,11 @@
 		54E174461381B46200C1A8FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		54E174481381B46200C1A8FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		54E1744A1381B46200C1A8FD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		54E174521381B46200C1A8FD /* ForwardChess-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ForwardChess-Prefix.pch"; sourceTree = "<group>"; };
+		54E174521381B46200C1A8FD /* OpenCB-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenCB-Prefix.pch"; sourceTree = "<group>"; };
 		54E174531381B46200C1A8FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		54E174551381B46200C1A8FD /* ForwardChessAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForwardChessAppDelegate.h; sourceTree = "<group>"; };
 		54E174561381B46200C1A8FD /* ForwardChessAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ForwardChessAppDelegate.mm; sourceTree = "<group>"; };
 		54E174841381B9BA00C1A8FD /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
-		54E1748F1381C01200C1A8FD /* ForwardChess-info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ForwardChess-info.plist"; sourceTree = "<group>"; };
 		54E174911381C17700C1A8FD /* CoreDataProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataProxy.h; sourceTree = "<group>"; };
 		54E174921381C17700C1A8FD /* CoreDataProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataProxy.m; sourceTree = "<group>"; };
 		54E1749A1383059D00C1A8FD /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
@@ -383,6 +382,7 @@
 		EF574953190224F4000F9387 /* Board@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Board@2x.png"; sourceTree = "<group>"; };
 		EF574954190224F4000F9387 /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings.png; sourceTree = "<group>"; };
 		EF574955190224F4000F9387 /* Settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Settings@2x.png"; sourceTree = "<group>"; };
+		EF582DAB1D668BE000193903 /* OpenCB-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OpenCB-Info.plist"; sourceTree = "<group>"; };
 		EF666CAD191BD4C900E4EA31 /* benchmark.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = benchmark.cpp; path = "stockfish-dd-src/src/benchmark.cpp"; sourceTree = SOURCE_ROOT; };
 		EF666CAE191BD4C900E4EA31 /* bitbase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bitbase.cpp; path = "stockfish-dd-src/src/bitbase.cpp"; sourceTree = SOURCE_ROOT; };
 		EF666CAF191BD4C900E4EA31 /* bitboard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bitboard.cpp; path = "stockfish-dd-src/src/bitboard.cpp"; sourceTree = SOURCE_ROOT; };
@@ -542,30 +542,30 @@
 		54E1744C1381B46200C1A8FD /* ForwardChess */ = {
 			isa = PBXGroup;
 			children = (
-				EF1DD74C1A03B1F8002A84D4 /* Highlight.js */,
-				EF4EEF8A19B169A700E62EF7 /* ic_menu_note.png */,
-				EF4EEF8B19B169A700E62EF7 /* ic_note.png */,
+				EFEDB933193F2B8B00F536FA /* Board */,
 				54E174841381B9BA00C1A8FD /* Constants.h */,
-				54E174551381B46200C1A8FD /* ForwardChessAppDelegate.h */,
-				BAFFCA1E1589D3200065E38A /* ZipDownloader.h */,
-				ACE28C3816AC5A5E00FABC42 /* ForwardChess_cover.jpg */,
-				54E174531381B46200C1A8FD /* main.m */,
-				BAFFCA1F1589D3200065E38A /* ZipDownloader.m */,
-				54E174561381B46200C1A8FD /* ForwardChessAppDelegate.mm */,
-				54E174521381B46200C1A8FD /* ForwardChess-Prefix.pch */,
-				54E1748F1381C01200C1A8FD /* ForwardChess-info.plist */,
+				54E174801381B7EF00C1A8FD /* Data */,
 				AC181D1D174CAA1900FEEF56 /* Default-568h@2x.png */,
 				AC181D1F174CAB8B00FEEF56 /* Default.png */,
 				AC181D20174CAB8B00FEEF56 /* Default@2x.png */,
-				EFEDB933193F2B8B00F536FA /* Board */,
-				54E174801381B7EF00C1A8FD /* Data */,
 				C07D084A185BDD00008F1830 /* Flurry */,
+				ACE28C3816AC5A5E00FABC42 /* ForwardChess_cover.jpg */,
+				54E174551381B46200C1A8FD /* ForwardChessAppDelegate.h */,
+				54E174561381B46200C1A8FD /* ForwardChessAppDelegate.mm */,
+				EF1DD74C1A03B1F8002A84D4 /* Highlight.js */,
+				EF4EEF8A19B169A700E62EF7 /* ic_menu_note.png */,
+				EF4EEF8B19B169A700E62EF7 /* ic_note.png */,
 				ACA281F818B625380071C9E7 /* Library */,
+				54E174531381B46200C1A8FD /* main.m */,
+				EF582DAB1D668BE000193903 /* OpenCB-Info.plist */,
+				54E174521381B46200C1A8FD /* OpenCB-Prefix.pch */,
 				54E174811381B87800C1A8FD /* Resources */,
 				EF666CAC191BD4B400E4EA31 /* Stockfish DD */,
 				54E1744D1381B46200C1A8FD /* Support */,
 				54E1747F1381B7D000C1A8FD /* UI */,
 				BAFFCA091589D2AA0065E38A /* ZipArchive */,
+				BAFFCA1E1589D3200065E38A /* ZipDownloader.h */,
+				BAFFCA1F1589D3200065E38A /* ZipDownloader.m */,
 			);
 			path = ForwardChess;
 			sourceTree = "<group>";
@@ -1020,7 +1020,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 54E1743A1381B46200C1A8FD /* Build configuration list for PBXProject "ForwardChess" */;
+			buildConfigurationList = 54E1743A1381B46200C1A8FD /* Build configuration list for PBXProject "OpenCB" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1074,7 +1074,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C67884613B3821700B2D88B /* book.js in Resources */,
-				54E174901381C01200C1A8FD /* ForwardChess-info.plist in Resources */,
 				8C67882713B0ED2800B2D88B /* pgnviewer in Resources */,
 				EF574957190224F4000F9387 /* Board@2x.png in Resources */,
 				8C182DA813B9028600155FFF /* board_note_tpl.html in Resources */,
@@ -1143,6 +1142,7 @@
 				EF53169D190148C7000700B2 /* Forward.png in Resources */,
 				EF5316A4190148C7000700B2 /* Store@2x.png in Resources */,
 				AC388F4A169CAD72002D9742 /* verfigi.ttf in Resources */,
+				EF582DAC1D668BE000193903 /* OpenCB-Info.plist in Resources */,
 				EF53169F190148C7000700B2 /* Backward.png in Resources */,
 				ACE28C3916AC5A5E00FABC42 /* ForwardChess_cover.jpg in Resources */,
 				AC181D1E174CAA1900FEEF56 /* Default-568h@2x.png in Resources */,
@@ -1357,10 +1357,10 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ForwardChess/ForwardChess-Prefix.pch";
+				GCC_PREFIX_HEADER = "ForwardChess/OpenCB-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = "ForwardChess/ForwardChess-Info.plist";
+				INFOPLIST_FILE = "ForwardChess/OpenCB-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1391,10 +1391,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ForwardChess/ForwardChess-Prefix.pch";
+				GCC_PREFIX_HEADER = "ForwardChess/OpenCB-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = "ForwardChess/ForwardChess-Info.plist";
+				INFOPLIST_FILE = "ForwardChess/OpenCB-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1445,10 +1445,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ForwardChess/ForwardChess-Prefix.pch";
+				GCC_PREFIX_HEADER = "ForwardChess/OpenCB-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = "ForwardChess/ForwardChess-Info.plist";
+				INFOPLIST_FILE = "ForwardChess/OpenCB-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1469,7 +1469,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		54E1743A1381B46200C1A8FD /* Build configuration list for PBXProject "ForwardChess" */ = {
+		54E1743A1381B46200C1A8FD /* Build configuration list for PBXProject "OpenCB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				54E174641381B46200C1A8FD /* Debug */,
